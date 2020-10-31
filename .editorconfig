@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# CA2000: Dispose objects before losing scope
+dotnet_diagnostic.CA2000.severity = none
+
+# CA5379: Do Not Use Weak Key Derivation Function Algorithm
+dotnet_diagnostic.CA5379.severity = none
