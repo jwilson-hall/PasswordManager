@@ -7,9 +7,9 @@ namespace PasswordManager
 {
     class Cypher
     {
-        const string PasswordHash = "g46dzQ80";
-        const string SaltKey = "OFRna74m*aze01xY";
-        const string VIKey = "@1B2c3D4@e5F6<7H8<.";
+        const string PasswordHash = "add";
+        const string SaltKey = "your";
+        const string VIKey = "keys";
         public static string Encrypt(string plainText)
         {
             byte[] plainTextBytes = Encoding.UTF8.GetBytes(plainText);
